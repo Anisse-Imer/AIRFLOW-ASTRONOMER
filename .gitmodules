@@ -1,0 +1,3 @@
+[submodule "dbt/ISAGRI-DBT-AppInsights"]
+	path = dbt/ISAGRI-DBT-AppInsights
+	url = https://github.com/Anisse-Imer/ISAGRI-DBT-AppInsights
