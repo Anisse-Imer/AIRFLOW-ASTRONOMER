@@ -1,0 +1,7 @@
+let tableName = "{{TableName}}";
+let startDate = datetime({{StartDate}});
+let endDate = datetime({{EndDate}});
+
+table(tableName)
+| where {{condition}}
+| where timestamp between(startDate .. endDate)
